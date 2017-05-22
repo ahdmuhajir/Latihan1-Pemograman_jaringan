@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@ page import="java.util.*, java.text.*"%>
+<%
+    DateFormat tanggal = DateFormat.getDateInstance(DateFormat.LONG);
+    String tgl = tanggal.format(new Date());
+    %>
+    <h2><%=tgl%></h2>
